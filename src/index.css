@@ -1,13 +1,35 @@
+:root {
+  --primary-color: #6278f7;
+  --secundary-color: #95ffd4;
+  --tertiary-color: #f2f2f2;
+
+  --section-back-background: #d8f7e9;
+  --section-front-background: #e8f8ff;
+  --section-data-science-background: #f0f8e2;
+  --section-devops-background: #fde7e8;
+  --section-design-background: #fae9f5;
+  --section-mobile-background: #fff5d9;
+  --section-management-background: #ffeedf;
+
+  --back-color: #57c278;
+  --front-color: #82cffa;
+  --data-science-color: #a6d157;
+  --devops-color: #e06b69;
+  --design-color: #db6ebf;
+  --mobile-color: #ffba05;
+  --management-color: #ff8a29;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }

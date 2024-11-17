@@ -1,0 +1,9 @@
+.banner {
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+}
+
+.banner img {
+  max-width: 100%;
+}
