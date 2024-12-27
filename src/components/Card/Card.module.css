@@ -1,0 +1,48 @@
+.collaborators {
+  width: 12.5rem;
+}
+
+.headerCard {
+  border-radius: 0.625rem 0.625rem 0 0;
+}
+
+.imgCard {
+  width: 6.25rem;
+  border-radius: 50%;
+  position: relative;
+  bottom: -3.125rem;
+}
+
+.footerCard {
+  background: var(--white-color);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 0.625rem 0.625rem;
+  padding-top: 5.625rem;
+  padding-bottom: 2.5rem;
+}
+
+.footerCard h4 {
+  color: var(--primary-color);
+  font-size: var(--font18);
+  line-height: 1.375rem;
+}
+
+.frontColor {
+  background: var(--front-color);
+}
+
+.backColor {
+  background: var(--back-color);
+}
+
+.mobileColor {
+  background: var(--mobile-color);
+}
+
+.devopsColor {
+  background: var(--devops-color);
+}
+
+.dataScienceColor {
+  background: var(--data-science-color);
+}
