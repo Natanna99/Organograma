@@ -1,0 +1,18 @@
+.sectionForm {
+  display: flex;
+  justify-content: center;
+  margin: 5rem 1.875rem;
+  gap: 1.875rem;
+  flex-wrap: wrap;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: var(--white-color);
+  border-radius: var(--border-radius-20);
+  padding: 2.25rem 4rem;
+  box-shadow: var(--box-shadow);
+  border: 0.063rem solid var(--background-form);
+}
