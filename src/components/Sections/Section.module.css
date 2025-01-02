@@ -4,56 +4,6 @@
   background-color: var(--section-back-background);
 }
 
-.frontBackground {
-  border: 0.063rem solid var(--front-color);
-  background-color: var(--section-front-background);
-}
-
-.backBackground {
-  border: 0.063rem solid var(--back-color);
-  background-color: var(--section-back-background);
-}
-
-.mobileBackground {
-  border: 0.063rem solid var(--mobile-color);
-  background-color: var(--section-mobile-background);
-}
-
-.devopsBackground {
-  border: 0.063rem solid var(--devops-color);
-  background-color: var(--section-devops-background);
-}
-
-.dataScienceBackground {
-  border: 0.063rem solid var(--data-science-color);
-  background-color: var(--section-data-science-background);
-}
-
-.frontColor {
-  color: var(--black);
-  border-bottom: 0.25rem solid var(--front-color);
-}
-
-.backColor {
-  color: var(--black);
-  border-bottom: 0.25rem solid var(--back-color);
-}
-
-.mobileColor {
-  color: var(--black);
-  border-bottom: 0.25rem solid var(--mobile-color);
-}
-
-.devopsColor {
-  color: var(--black);
-  border-bottom: 0.25rem solid var(--devops-color);
-}
-
-.dataScienceColor {
-  color: var(--black);
-  border-bottom: 0.25rem solid var(--data-science-color);
-}
-
 .section h3 {
   font-size: 2rem;
   display: inline-block;
@@ -62,4 +12,20 @@
 
 .titleSection {
   margin-bottom: 1.875rem;
+}
+
+.containerCards {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.containerInput {
+  display: flex;
+  gap: 1.25rem;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.inputColor {
+  position: relative;
 }
