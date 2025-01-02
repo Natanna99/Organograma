@@ -8,6 +8,7 @@
 
 .imgCard {
   width: 6.25rem;
+  height: 6.25rem;
   border-radius: 50%;
   position: relative;
   bottom: -3.125rem;
@@ -27,22 +28,36 @@
   line-height: 1.375rem;
 }
 
-.frontColor {
-  background: var(--front-color);
+.containerClose {
+  display: flex;
+  justify-content: flex-end;
 }
 
-.backColor {
-  background: var(--back-color);
+.deleteButton {
+  position: absolute;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+  padding: 5px;
+  height: 10px;
+  width: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white-color);
 }
 
-.mobileColor {
-  background: var(--mobile-color);
+.deleteButton:hover {
+  background: linear-gradient(
+    to bottom,
+    var(--white-color),
+    var(--section-devops-background)
+  );
+  color: red;
+  border-radius: 50%;
 }
 
-.devopsColor {
-  background: var(--devops-color);
-}
-
-.dataScienceColor {
-  background: var(--data-science-color);
+.favorite {
+  color: red;
 }

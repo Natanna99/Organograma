@@ -27,3 +27,8 @@
   color: var(--quaternary-color);
   font-size: var(--font12);
 }
+
+.inputText input[type="color"] {
+  width: auto;
+  height: 50px;
+}
