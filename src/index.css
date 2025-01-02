@@ -2,6 +2,7 @@
   --primary-color: #6278f7;
   --secundary-color: #95ffd4;
   --tertiary-color: #f2f2f2;
+  --quaternary-color: #3533cd;
 
   --section-back-background: #d8f7e9;
   --section-front-background: #e8f8ff;
@@ -18,6 +19,31 @@
   --design-color: #db6ebf;
   --mobile-color: #ffba05;
   --management-color: #ff8a29;
+
+  --white-color: #fff;
+  --black: #000;
+
+  --background-form: #778dfb;
+
+  --font12: 0.75rem;
+  --font14: 0.875rem;
+  --font16: 1rem;
+  --font18: 1.125rem;
+  --font20: 1.25rem;
+
+  --font-weight-400: 400;
+  --font-weight-500: 500;
+  --font-weight-700: 700;
+  --font-weight-900: 900;
+
+  --border-radius-10: 0.625rem;
+  --border-radius-20: 1.25rem;
+  --border-radius-30: 1.875rem;
+  --border-radius-40: 2.5rem;
+  --border-radius-50: 3.125rem;
+
+  --box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.08);
+  --box-shadow-medium: 10px 10px 30px rgba(0, 0, 0, 0.06);
 }
 
 body {
@@ -32,4 +58,44 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+label {
+  margin: 0;
+  color: var(--quaternary-color);
+}
+
+h1 {
+  font-size: var(--font20);
+  font-weight: var(--font-weight-700);
+}
+
+h2 {
+  font-size: var(--font18);
+  font-weight: var(--font-weight-700);
+}
+
+h3 {
+  font-size: var(--font16);
+  font-weight: var(--font-weight-700);
+}
+
+h4 {
+  font-size: var(--font14);
+  font-weight: var(--font-weight-700);
+}
+
+h5 {
+  font-size: var(--font12);
+  font-weight: var(--font-weight-700);
+}
+
+label {
+  font-size: var(--font16);
+  font-weight: var(--font-weight-500);
 }

@@ -1,0 +1,25 @@
+.grupSelect {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem 0;
+}
+
+.grupSelect label {
+  font-weight: var(--font-weight-500);
+  margin-bottom: 0.5rem;
+}
+
+.grupSelect select {
+  background: var(--white-color);
+  box-shadow: var(--box-shadow-medium);
+  border: none;
+  font-size: var(--font12);
+  padding: 0.938rem;
+  border-radius: var(--border-radius-10);
+  border: 0.063rem solid var(--background-form);
+  color: var(--quaternary-color);
+}
+
+.grupSelect select:focus {
+  outline: var(--primary-color) auto 0.063rem;
+}
