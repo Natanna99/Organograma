@@ -1,0 +1,31 @@
+.section {
+  text-align: center;
+  padding: 2rem;
+  background-color: var(--section-back-background);
+}
+
+.section h3 {
+  font-size: 2rem;
+  display: inline-block;
+  padding: 0.5rem;
+}
+
+.titleSection {
+  margin-bottom: 1.875rem;
+}
+
+.containerCards {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.containerInput {
+  display: flex;
+  gap: 1.25rem;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.inputColor {
+  position: relative;
+}
